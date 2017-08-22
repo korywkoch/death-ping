@@ -1,1 +1,1 @@
-worker: java $JVM_OPTS -cp target/ping-death.jar clojure.main -m ping-death.core
+worker: lein run -m death-ping.core $SITES_TO_PING

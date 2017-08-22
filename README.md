@@ -1,18 +1,16 @@
-# ping-death
+# death-ping
 
 Heroku worker process to wake up your lazy servers.
 
 ## Dependencies:
 
-- At-At (https://github.com/overtone/at-at)
-- tools.logging (https://github.com/clojure/tools.logging)
-- Logback (http://logback.qos.ch/)
+- clj-http (http://logback.qos.ch/)
 
 ## Usage
 
 To run locally:
 
-    $ lein run -m ping-death.core [urls]
+    $ lein run -m death-ping.core [urls]
 
 To run on Heroku, follow this:
 

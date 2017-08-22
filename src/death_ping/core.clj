@@ -1,4 +1,4 @@
-(ns ping-death.core
+(ns death-ping.core
   (:require [clj-http.client :as client])
   (:require [clojure.string :as str])
   (:gen-class))

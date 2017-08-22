@@ -1,6 +1,6 @@
-(defproject ping-death "0.1.0-SNAPSHOT"
+(defproject death-ping "0.1.0-SNAPSHOT"
   :description "Clojure app to ping an arbitrary list of servers"
-  :url "http://github.com/korywkoch/ping-death"
+  :url "http://github.com/korywkoch/death-ping"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [
